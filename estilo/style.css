@@ -1,1 +1,39 @@
 @charset "UTF-8";
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: lightyellow;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login{
+    background-color: black;
+    color: lightyellow;
+    width: 250px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+img{
+  width: 250px;
+  height: 140px;
+  border-radius: 13px 13px 0px 0px;
+  display: block;
+}
+ #formulario{
+    padding: 10px;
+    display: block;
+ }
