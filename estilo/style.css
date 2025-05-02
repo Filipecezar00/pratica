@@ -7,8 +7,10 @@
     box-sizing: border-box;
 }
 
+
+
 body,html{
-    background-color: lightyellow;
+    background-color:orange;
     height: 100vh;
     width: 100vw;
 }
@@ -26,12 +28,16 @@ section#login{
     margin: auto;
     border-radius: 15px;
     margin-top: 50px;
+    
+
 }
 img{
   width: 250px;
   height: 140px;
   border-radius: 13px 13px 0px 0px;
   display: block;
+  border: 2px solid black;
+
 }
  #formulario{
     padding: 10px;

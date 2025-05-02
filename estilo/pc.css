@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width:962px){
+    
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+    html,body{
+        background-image: linear-gradient(to top, yellow, orange);
+    
+      
+    }
+
+   section#login{
+    width:900px;
+    height:400px ;
+    }
+     img{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        border-radius: 13px 0px 0px 13px;
+        border: 2px solid black;
+          
+    }
+
+     main{
+        padding: 35px;
+     }
+      
+    #formulario{
+        text-align: center;
+       
+        margin-left: 400px;
+     
+     }
+
+}

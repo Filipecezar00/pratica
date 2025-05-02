@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media  screen and (min-width:768px)  and (max-width:992px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body,html{
+
+        background-image: linear-gradient(to top, yellow, orange);
+
+    }
+    
+    
+
+    section#login{
+        width: 700px;
+        height: 300px;
+
+    }
+        
+    img {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            border-radius: 13px 0px 0px 13px;
+            border: 2px solid black;
+
+    }
+    #formulario{
+
+        text-align: center;
+        margin-left: 300px;
+        font-size: 14px;
+    
+    }
+    main{
+        padding: 50px;
+        width: 100vw;
+        height: 100vh;
+    }
+}
