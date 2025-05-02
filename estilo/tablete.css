@@ -39,4 +39,13 @@
         width: 100vw;
         height: 100vh;
     }
+
+    #enviar{
+        width: 70px;
+        margin-left: 50px;
+     }
+     #esq{
+        margin-left: 50px;
+        width: 200px;
+     }
 }

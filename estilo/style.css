@@ -43,3 +43,25 @@ img{
     padding: 10px;
     display: block;
  }
+
+ #Usuario{
+    width: 150px;
+    height: 20px;
+    border-radius: 15px ;
+ }
+
+ #Senha{
+    width:150px ;
+    height: 20px;
+
+    border-radius: 15px;
+ }
+ #enviar{
+    width: 70px;
+    margin-left: 100px;
+ }
+ #esq{
+    margin-left: 50px;
+    width: 160px;
+ }
+ 
