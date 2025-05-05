@@ -6,11 +6,11 @@
     <title>FLEXBOX</title>
     <style>
         div.container{
-            background-color: green;
+            background-color: rgb(128, 0, 0);
             display: flex;
-            flex: auto;
             flex-direction: row;
-            flex-wrap: nowrap
+            flex-wrap: wrap
+            
     
            
 
@@ -23,8 +23,10 @@
             border: 1px solid black;
              text-align: center;
             flex-basis: auto;
-            padding: 10px;
+            flex-shrink: 1;
+            flex-grow: 0;
             flex: auto;
+        
             
             
 
@@ -35,12 +37,10 @@
 </head>
 <body>
         <div class="container">
-            <div class="item">A</div>
-            <div class="item">B</div>
-            <div class="item">C</div>
-            <div class="item">D</div>
-            <div class="item" >E</div>
-            <div class="item">F</div>
+            <div class="item" style="background-color: yellow; color: rgb(0, 0, 0);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quidem! Iste et aut quia iure sed maiores hic, itaque similique nesciunt voluptatibus accusamus eius, exercitationem expedita porro eligendi tenetur quam?</div>
+            <div class="item" style="background-color: blue; color: rgb(0, 0, 0);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem soluta quas aliquam beatae accusantium maxime quam voluptas, incidunt voluptatum reprehenderit iure dolorem perspiciatis totam doloribus veniam sit voluptates distinctio? Laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et officiis numquam nisi minus quasi recusandae nemo perferendis, consequatur animi excepturi deleniti quidem ipsa sapiente adipisci hic deserunt tempora delectus? In.</div>
+            <div class="item" style="background-color: green; color: rgb(0, 0, 0);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis animi incidunt possimus earum enim quod doloribus, corporis odio amet ut provident sunt esse pariatur id culpa necessitatibus doloremque dignissimos voluptatem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores at exercitationem libero fugit, sunt tempora consequatur impedit qui corrupti, nobis modi quia tempore doloribus voluptatum reprehenderit cum perferendis dolore repellat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quaerat laudantium quasi nemo? Assumenda illum explicabo dolor voluptatem sed. Porro animi veritatis sed omnis illum, sunt quod hic in error? </div>
+         
         </div>
 </body>
 </html>
